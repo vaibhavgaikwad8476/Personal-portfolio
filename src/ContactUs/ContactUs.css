@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.maincontainer{
+   display: flex;
+   justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.con1{
+    width: 50%;
+    display: inline-block;
+    height: 300px;
+    margin: 20px;
+}
+.con2{
+    width: 55%;
+    margin: auto;
+}
+.box{
+   height: auto;
+   background-color: white;
+   width: 560px;
+   padding: 25px;
+   color: black;
+   margin-left: auto;
+   margin-right: auto;
+   border: none;
+   border-radius: 20px;
+   box-shadow: 0px 0px 1px 0px;
+   padding-bottom: 20px;
+}
+#input-box{
+    background-color: 
+    white;
+    padding: 8px 5px;
+    width: 510px;
+    border: none;
+    box-shadow: 0px 1px 0px 0px rgb(104, 104, 104);
+    color:black;
+}
+#heading{
+    text-align: center;
+}
+#my-btn{
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: auto;
+    font-size: 16px;
+    padding: 5px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 0px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+#GithubImg{
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#LinkdinImg{
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#InstaImg{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 35px;
+    
+}
+#gitbton{
+    cursor: pointer;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2px;
+    box-shadow: 0px 1px 1px 0px rgb(84, 84, 84);
+    margin-left: 125px;
+}
+#linkdbton{
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 0px rgb(84, 84, 84);
+    padding: 4px 7px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#instabton{
+    cursor: pointer;
+    padding: 5px 5px;
+    box-shadow: 0px 1px 1px 0px rgb(84, 84, 84);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.socialbtn{
+    border-radius: 10px;
+}
+button{
+    border-radius: 15px;
+}
+/* @media screen and (min-width:800px) { */
+    /* #input-box{
+        background-color: rgb(40, 39, 39);
+        padding: 8px 5px;
+        width: 460px;
+        border: none;
+        box-shadow: 0px 1px 0px 0px rgb(104, 104, 104);
+        color: white;
+    } */
+/* } */
