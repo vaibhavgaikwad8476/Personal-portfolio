@@ -14,12 +14,12 @@ function Home() {
                 <div className='container1'>
                     <div className='heading-container'>
                         <p className='heading'>Hello, <br />
-                            <span>I'm <span id="myName">Vaibhav Gaikwad</span> pursuing BE from SPPU, Pune</span>
+                            <span>I'm <span id="myName">Vaibhav Gaikwad</span> pursuing BE from Savitribai Phule Pune University.</span>
                         </p>
-                        <div className='typed-out'> "Front end Developer"</div>
+                        {/* <div className='typed-out'> "Front end Developer"</div> */}
                     </div>
                     <span id="description">
-                        👋 Hi, I'm Vaibhav Gaikwad, a front-end developer passionate about crafting visually appealing and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I specialize in turning design concepts into seamless digital experiences. My tech stack includes React and Angular.js, and I'm always exploring new tools to enhance my skills. Let's connect and explore how I can bring your ideas to life! 🚀
+                        👋 Hi, I'm front-end developer passionate about crafting visually appealing and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I specialize in turning design concepts into seamless digital experiences. My tech stack includes React and Angular.js, and I'm always exploring new tools to enhance my skills. Let's connect and explore how I can bring your ideas to life! 🚀
 
                     </span>
                     <br></br>

@@ -1,13 +1,13 @@
 import React from 'react';
 import './About.css';
 import Navbar from '../Navbar/Navbar';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+// import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function AboutMe() {
   return (
     <>
       <Navbar />
-      <div id="skills">
+      {/* <div id="skills">
         <h1 className='heading-name'>My skills</h1>
         <section>
           <div class="myskillbox1">
@@ -18,7 +18,7 @@ function AboutMe() {
                 <div class="info">
                   <span>HTML</span>
                 </div>
-                <ProgressBar now={60}/>
+                <ProgressBar now={60} />
                 <div class="progress-line html">
                   <span></span>
                 </div>
@@ -68,66 +68,71 @@ function AboutMe() {
             <h1 class="professionalskill">Professional Skills</h1>
             <div class="radial-bars">
 
-            <div class="radial-bar">
-              <svg x="0" y="0" viewBox="0 0 200 200">
-                <circle class="pragress-bar" cx="100" cy="100" r="80"></circle>
-                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                <div class="percentage">90%</div>
-                <div class="subheading">creativity</div>
-              </svg>
-            </div>
+              <div class="radial-bar">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle class="pragressbar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                  <div class="percentage">90%</div>
+                  <div class="subheading">creativity</div>
+                </svg>
+              </div>
 
-            <div class="radial-bar">
-              <svg x="0" y="0" viewBox="0 0 200 200">
-                <circle class="pragress-bar" cx="100" cy="100" r="80"></circle>
-                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                <div class="percentage">65%</div>
-                <div class="subheading">Communication</div>
-              </svg>
-            </div>
+              <div class="radial-bar">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle class="pragressbar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                  <div class="percentage">65%</div>
+                  <div class="subheading">Communication</div>
+                </svg>
+              </div>
 
-            <div class="radial-bar">
-              <svg x="0" y="0" viewBox="0 0 200 200">
-                <circle class="pragress-bar" cx="100" cy="100" r="80"></circle>
-                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                <div class="percentage">50%</div>
-                <div class="subheading">Problem Solving</div>
-              </svg>
-            </div>
+              <div class="radial-bar">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle class="pragressbar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                  <div class="percentage">50%</div>
+                  <div class="subheading">Problem Solving</div>
+                </svg>
+              </div>
 
-            <div class="radial-bar">
-              <svg x="0" y="0" viewBox="0 0 200 200">
-                <circle class="pragress-bar" cx="100" cy="100" r="80"></circle>
-                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                <div class="percentage">80%</div>
-                <div class="subheading">TeamWork</div>
-              </svg>
-            </div>
+              <div class="radial-bar">
+                <svg x="0" y="0" viewBox="0 0 200 200">
+                  <circle class="pragressbar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                  <div class="percentage">80%</div>
+                  <div class="subheading">TeamWork</div>
+                </svg>
+              </div>
 
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
 
       <div>
         <h1 id="internshipHeading">Internships</h1>
 
         <div class="internDetails">
           <div class="internCards">
-            <p id="mernstack">MERN Stack</p>
-            SucessFully completed an internship in MERN Stack development, gaining hands-on experience in MongoDB, Express.js, React.js, and Node.js contributed to the development of dynamic and scalable web applications, honing skills in both frontend and backend technologies for a comprehensive understanding of morden web development.<br></br>
+            <p id="mernstack">IDz Internship</p>
+            During my internship at IDZ, my role primarily involved serving as a network operator. This entailed managing and monitoring network sysytems, ensuring seamless connectivity, and troubleshooting any issues that arose. I gained invaluable hands-on-experience in configuring and maintaining network infrastructure, which deepened my understanding of networking principles and protocols. additionally, I collaborated closely with fellow team members, honing my tearwork and communication skills in a professional environment. My time at IDZ not only expanded my technical expertise but also provided me with practical insights into the dynamic field of network operations.<br></br>
+          </div>
+
+          <div class="internCards">
+            <p id="AzureFundamentals">Azure Fundamentals</p>
+            In Microsoft Fundamentals, focusing on cloud compuding, virtualization, and foundational Azure services to contribute to innovation and efficient clous-based solutions.<br></br>
+            <button class="mernstackbtn">Cloud Computing</button>
+            <button class="mernstackbtn">Azure Services</button>
+          </div>
+
+          <div class="internCards">
+          <p id="mernstack">MERN Stack</p>
+            Sucessfully completed an internship in MERN Stack development, gaining hands-on experience in MongoDB, Express.js, React.js, and Node.js contributed to the development of dynamic and scalable web applications, honing skills in both frontend and backend technologies for a comprehensive understanding of morden web development.<br></br>
             <button class="mernstackbtn">HTML</button>
             <button class="mernstackbtn">CSS</button>
             <button class="mernstackbtn">JavaScript</button>
             <button class="mernstackbtn">ReactJs & AngularJs</button>
             <button class="mernstackbtn">Git & GitHub</button>
-          </div>
-
-          <div class="internCards">
-          <p id="AzureFundamentals">Azure Fundamentals</p>
-            In Microsoft Fundamentals, focusing on cloud compuding, virtualization, and foundational Azure services to contribute to innovation and efficient clous-based solutions.<br></br>
-            <button class="mernstackbtn">Cloud Computing</button>
-            <button class="mernstackbtn">Azure Services</button>
           </div>
         </div>
       </div>
@@ -138,53 +143,53 @@ function AboutMe() {
           <div class="educations">
             <h3 class="Subeduhead">Bachelor's of  Engineering - BE, Computer Engineering</h3>
             <div class="educationDescription">
-            <p>College: Hon. Shri Babanroa Pachlute Vichardhara trusts group of institutions College of Engineering, Ahmednagar</p>
-            <p class="grade">Grade: A+</p>
-            <i class="courseyear">July 2021 - June 2024</i>
-           
+              <p>College: Hon. Shri Babanroa Pachlute Vichardhara trusts group of institutions College of Engineering, Ahmednagar</p>
+              <p id="grade">Grade: A+</p>
+              <i class="courseyear">July 2021 - June 2024</i>
+
             </div>
-            <br></br>  
-          </div>
-         
-    
-          <div class="educations">
-          <h3 class="Subeduhead">Diploma, Mechanical Engineering</h3>
-          <div class="educationDescription">
-          <p>College: Government of polytechnic College Kolhapur</p>
-          <p id="grade">Grade: A+</p>
-          <i class="courseyear">July 2019 - May 2021</i>
-        
-          </div>
-          <br></br>
-          </div>
-         
-
-          <div class="educations">
-          <h3 class="Subeduhead">Higher Secondary, Science</h3>
-          <div class="educationDescription">
-          <p>College: Shri Aranyeshwar Vidyalaya and Junior College Arangoan</p>
-          <p id="grade">Grade: A+</p>
-          <i class="courseyear">June 2018 - Feb 2019</i>
-         
-          </div>
-          <br></br>
+            <br></br>
           </div>
 
+
           <div class="educations">
-          <h3 class="Subeduhead">Secondary School, Semi-english</h3>
-          <div class="educationDescription">
-          <p>College: Shri vitthal vidyalaya Mahijalgon</p>
-          <p id="grade">Grade: A+</p>
-          <i class="courseyear">June 2017</i>
-    
+            <h3 class="Subeduhead">Diploma, Mechanical Engineering</h3>
+            <div class="educationDescription">
+              <p>College: Government of polytechnic College Kolhapur</p>
+              <p id="grade">Grade: A+</p>
+              <i class="courseyear">July 2019 - May 2021</i>
+
+            </div>
+            <br></br>
           </div>
-          <br></br>
+
+
+          <div class="educations">
+            <h3 class="Subeduhead">Higher Secondary, Science</h3>
+            <div class="educationDescription">
+              <p>College: Shri Aranyeshwar Vidyalaya and Junior College Arangoan</p>
+              <p id="grade">Grade: A+</p>
+              <i class="courseyear">June 2018 - Feb 2019</i>
+
+            </div>
+            <br></br>
+          </div>
+
+          <div class="educations">
+            <h3 class="Subeduhead">Secondary School, Semi-english</h3>
+            <div class="educationDescription">
+              <p>College: Shri vitthal vidyalaya Mahijalgon</p>
+              <p id="grade">Grade: A+</p>
+              <i class="courseyear">June 2017</i>
+
+            </div>
+            <br></br>
           </div>
 
 
         </div>
       </div>
-</>
-)
+    </>
+  )
 }
 export default AboutMe

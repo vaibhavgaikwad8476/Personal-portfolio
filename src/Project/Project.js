@@ -67,11 +67,7 @@ function Project() {
         </div>
       </div>
 
-      <div class="miprojectCards2">
-      <h2 id="projectname"><a href='https://dice-rollerdesign.netlify.app/'>Demo</a></h2>
-      <h2 id="projectname"><a href='https://digital-clockdesign.netlify.app/'>Demo</a></h2>
-     <h2 id="projectname"> <a href='https://calculatorrutuja.netlify.app/'>Demo</a></h2>
-      </div>
+      
 
     </div>
     </>
