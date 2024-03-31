@@ -16,17 +16,17 @@ function Home() {
                         <p className='heading'>Hello, <br />
                             <span>I'm <span id="myName">Vaibhav Gaikwad</span> pursuing BE from Savitribai Phule Pune University.</span>
                         </p>
-                        {/* <div className='typed-out'> "Front end Developer"</div> */}
+                        <div className='typed-out'> "Front end Developer"</div>
                     </div>
                     <span id="description">
-                        👋 Hi, I'm front-end developer passionate about crafting visually appealing and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I specialize in turning design concepts into seamless digital experiences. My tech stack includes React and Angular.js, and I'm always exploring new tools to enhance my skills. Let's connect and explore how I can bring your ideas to life! 🚀
+                        👋 Hi, I'm front-end developer passionate about crafting visually appealing and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I specialize in turning design concepts into seamless digital experiences. My tech stack includes React js, and I'm always exploring new tools to enhance my skills. Let's connect and explore how I can bring your ideas to life! 🚀
 
                     </span>
                     <br></br>
-                    <button id="programmingbtns1" type='button'>HTML</button>
+                    {/* <button id="programmingbtns1" type='button'>HTML</button>
                     <button id="programmingbtns" type='button'>CSS</button>
                     <button id="programmingbtns" type='button'>JavaScript</button>
-                    <button id="programmingbtns" type='button'>Git & GitHub</button>
+                    <button id="programmingbtns" type='button'>Git & GitHub</button> */}
                     <br></br>
 
                     <a href="https://drive.google.com/file/d/1_C3PR893V0zXLqKEFjD74pCz4KmWXk-Q/view?usp=sharing"> <button id="download" type='button'>Download CV</button></a>
@@ -37,7 +37,7 @@ function Home() {
 
                         <a href="https://www.linkedin.com/in/vaibhav-gaikwad27/">  <button id="linkdin-btn" type='button'> <img id="LinkdinImg" src={linkdin} alt='profilephoto' /></button></a>
 
-                        <button id="instagram-btn" type='button'> <img id="InstaImg" src={instagram} alt='profilephoto' /></button>
+                        <a href="https://www.instagram.com/vaibhav_gaikwad_8476/?hl=en"> <button id="instagram-btn" type='button'> <img id="InstaImg" src={instagram} alt='profilephoto' /></button></a>
                     </div>
                 </div>
 
