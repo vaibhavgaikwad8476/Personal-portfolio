@@ -127,7 +127,7 @@ function AboutMe() {
 
           <div class="internCards">
           <p id="mernstack">MERN Stack</p>
-            Sucessfully completed an internship in MERN Stack development, gaining hands-on experience in MongoDB, Express.js, React.js, and Node.js contributed to the development of dynamic and scalable web applications, honing skills in both frontend and backend technologies for a comprehensive understanding of morden web development.<br></br>
+            Sucessfully completed an internship in MERN Stack development, gaining hands-on experience in MongoDB, React.js, and Node.js contributed to the development of dynamic and scalable web applications, honing skills in both frontend and backend technologies for a comprehensive understanding of morden web development.<br></br>
             <button class="mernstackbtn">HTML</button>
             <button class="mernstackbtn">CSS</button>
             <button class="mernstackbtn">JavaScript</button>
