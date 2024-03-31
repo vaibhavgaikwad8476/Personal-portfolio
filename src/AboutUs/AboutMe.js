@@ -114,8 +114,8 @@ function AboutMe() {
 
         <div class="internDetails">
           <div class="internCards">
-            <p id="mernstack">IDz Internship</p>
-            During my internship at IDZ, my role primarily involved serving as a network operator. This entailed managing and monitoring network sysytems, ensuring seamless connectivity, and troubleshooting any issues that arose. I gained invaluable hands-on-experience in configuring and maintaining network infrastructure, which deepened my understanding of networking principles and protocols. additionally, I collaborated closely with fellow team members, honing my tearwork and communication skills in a professional environment. My time at IDZ not only expanded my technical expertise but also provided me with practical insights into the dynamic field of network operations.<br></br>
+            <p id="mernstack">idz Internship</p>
+            During my internship at IDZ,in TCS my role primarily involved serving as a network operator. This entailed managing and monitoring network sysytems, ensuring seamless connectivity, and troubleshooting any issues that arose. I gained invaluable hands-on-experience in configuring and maintaining network infrastructure, which deepened my understanding of networking principles and protocols. additionally, I collaborated closely with fellow team members, honing my tearwork and communication skills in a professional environment. My time at IDZ not only expanded my technical expertise but also provided me with practical insights into the dynamic field of network operations.<br></br>
           </div>
 
           <div class="internCards">
@@ -131,8 +131,8 @@ function AboutMe() {
             <button class="mernstackbtn">HTML</button>
             <button class="mernstackbtn">CSS</button>
             <button class="mernstackbtn">JavaScript</button>
-            <button class="mernstackbtn">ReactJs & AngularJs</button>
-            <button class="mernstackbtn">Git & GitHub</button>
+            <button class="mernstackbtn">ReactJs</button>
+            <button class="mernstackbtn">GitHub</button>
           </div>
         </div>
       </div>
@@ -141,10 +141,10 @@ function AboutMe() {
         <h1 class="eduhead">Education</h1>
         <div>
           <div class="educations">
-            <h3 class="Subeduhead">Bachelor's of  Engineering - BE, Computer Engineering</h3>
+            <h3 class="Subeduhead">Bachelor's of  Engineering, Computer Engineering</h3>
             <div class="educationDescription">
               <p>College: Hon. Shri Babanroa Pachlute Vichardhara trusts group of institutions College of Engineering, Ahmednagar</p>
-              <p id="grade">Grade: A+</p>
+              <p id="grade">SGPA: 7.21</p>
               <i class="courseyear">July 2021 - June 2024</i>
 
             </div>
@@ -155,8 +155,8 @@ function AboutMe() {
           <div class="educations">
             <h3 class="Subeduhead">Diploma, Mechanical Engineering</h3>
             <div class="educationDescription">
-              <p>College: Government of polytechnic College Kolhapur</p>
-              <p id="grade">Grade: A+</p>
+              <p>College: Government polytechnic Kolhapur, Kolhapur</p>
+              <p id="grade">Percentage: 89.60%</p>
               <i class="courseyear">July 2019 - May 2021</i>
 
             </div>
@@ -168,7 +168,7 @@ function AboutMe() {
             <h3 class="Subeduhead">Higher Secondary, Science</h3>
             <div class="educationDescription">
               <p>College: Shri Aranyeshwar Vidyalaya and Junior College Arangoan</p>
-              <p id="grade">Grade: A+</p>
+              <p id="grade">Percentage: 60%</p>
               <i class="courseyear">June 2018 - Feb 2019</i>
 
             </div>
@@ -179,7 +179,7 @@ function AboutMe() {
             <h3 class="Subeduhead">Secondary School, Semi-english</h3>
             <div class="educationDescription">
               <p>College: Shri vitthal vidyalaya Mahijalgon</p>
-              <p id="grade">Grade: A+</p>
+              <p id="grade">Percentage: 78.60%</p>
               <i class="courseyear">June 2017</i>
 
             </div>
