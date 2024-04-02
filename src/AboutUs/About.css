@@ -297,8 +297,22 @@ position: relative;
     margin-bottom: 50px;
     color:rgb(204, 0, 255);
 }
+.skillsedication{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+margin: 15px;
+
+}
 .educations{
-    margin-left: 400px;
+    box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
+    border: none;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 15px;
 }
 .Subeduhead{
     text-decoration: underline;
@@ -338,7 +352,7 @@ position: relative;
     margin: 15px;
 }
     .internCards{
-        box-shadow: 0.3px 1.2px 1.2px 1.2px rgb(62, 61, 61);
+        box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
         border: none;
         border-radius: 10px;
         height: 250px;
@@ -351,7 +365,7 @@ position: relative;
 background-color: black;
 margin: 10px;
 color: white;
-box-shadow: 0.3px 1.2px 1.2px 1.2px rgb(62, 61, 61);
+box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
 border: none;
 border-radius: 10px;
 padding:5px  8px;
