@@ -294,7 +294,7 @@ position: relative;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 3px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color:rgb(204, 0, 255);
 }
 .skillsedication{
@@ -336,14 +336,14 @@ margin: 15px;
     text-decoration: underline;
     text-underline-offset:10px;
     text-decoration-thickness: 3px;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 #internshipHeading{
     text-align: center;
     text-decoration: underline;
     text-underline-offset:10px;
     text-decoration-thickness: 2px;
-    margin-bottom:50px;
+    margin-bottom:30px;
     color:rgb(204, 0, 255);
 }
 .internDetails{
@@ -358,7 +358,7 @@ margin: 15px;
         border-radius: 10px;
         height: auto;
         width: 400px;
-        margin-top: 50px;
+        margin-top: 30px;
         padding: 17px;
         margin-bottom: 70px;
     }
