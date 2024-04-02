@@ -22,7 +22,7 @@ justify-content: space-around;
 margin: 15px;
 }
 .cards{
-    box-shadow: 0.3px 1.2px 1.2px 1.2px rgb(62, 61, 61);
+    box-shadow:0.5px 0.5px 1px 1px rgb(189, 188, 188);
     border: none;
     border-radius: 10px;
     height: 300px;
@@ -31,7 +31,7 @@ margin: 15px;
     padding: 17px;
 }
 .miniProjectCards{
-    box-shadow: 0.5px 1px 0.5px 0.5px rgb(62, 61, 61);
+    box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
     border: none;
     border-radius: 10px;
     width: 300px;
