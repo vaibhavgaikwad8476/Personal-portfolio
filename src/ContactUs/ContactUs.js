@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import github from '../Images/GitHub.png'
 import instagram from '../Images/Instagram.png'
 import linkdin from '../Images/Linkdin.png'
+import FacebookImg from '../Images/facebookimg.avif';
 import showToast from 'crunchy-toast';
 
 function ContactUs() {
@@ -61,7 +62,8 @@ function ContactUs() {
             <a href="https://www.linkedin.com/in/vaibhav-gaikwad27/">  <button id="linkdbton" type='button'> <img id="LinkdinImg" src={linkdin} alt='profilephoto' /></button></a>
 
             <a href="https://www.instagram.com/vaibhav_gaikwad_8476/?hl=en"> <button id="instabton" type='button'> <img id="InstaImg" src={instagram} alt='profilephoto' /></button></a> 
-
+            
+            <button id="facebookbton" type='button'> <img id="facebookImg" src={FacebookImg} alt='profilephoto' /></button>
           
           </div>
           </div>
