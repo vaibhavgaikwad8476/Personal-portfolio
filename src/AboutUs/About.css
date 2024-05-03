@@ -3,344 +3,45 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.heading-name
-{
-    color: black;
+#skills{
     text-align: center;
-}
-section{
-    display: flex;
-    flex-wrap:wrap;
-}
-.myskillbox1 {
-    width: 600px;
-    height: auto; 
-    padding: 75px 90px;
-    margin-left: 120px;
-  }
-.myskillbox2{
-    width:600px;
-    height:600px;
-    padding: 75px 90px;
-    margin-left:120px;
-}
-.technicalskill {
-    text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 3px;
-    margin-bottom: 50px;
-    color: black; /* Set the text color */
-  }
-
-.bar {
-    font-size: 23px;
-    position: relative;
-  }
-.technical-bars .bar{
-margin-top: 40px;
-}
-.technical-bars .bar:first-child{
-    margin-top: 0;
-}
-.technical-bars .bar:last-child{
-        margin-bottom: 0;
-}
-.technical-bars .bar .info{
-    margin-bottom: 5px;
-}
-.info{
-    color: black;
-}
-.technical-bars .bar .info span {
-    font-size: 17px;
-    font-weight: 500;
-    opacity: 0;
-    animation: showText 0.5s 1s linear forwards;
-  }
-   .progress-line {
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 5px;
-    background-color: #000000;
-    overflow: hidden;
-  }
-.technical-bars .bar .progress-line span {
-    display: block;
-    height: 100%;
-    background-color: aqua;
-    width: 0;
-    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-  }
-  
-  @keyframes animate {
-    100% {
-      width: 100%;
-    }
-  }
-
-  .technical-bars .bar .progress-line span::after {
-    content: attr(data-content);
-    position: absolute;
-    padding: 1px 8px;
-    background-color: blue;
-    color: black;
-    font-size: 12px;
-    border-radius: 3px;
-    top: -28px;
-    right: -20px;
-    animation: showText 0.5s 1.5s linear forwards;
-    opacity: 0;
-  }
-  
-  @keyframes showText {
-    100% {
-      opacity: 1;
-    }
-  }
-
-.technical-bars .bar .progress-line{
-    height:100% ;
-    background-color: aqua;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-.progress-line.html span{
-    width: 90%;
-}
-.progress-line.css span{
-    width: 90%;
-}
-.progress-line.github span{
-    width: 90%;
-}
-.progress-line.javascript span{
-    width: 90%;
-}
-.progress-line.react span{
-    width: 90%;
-}
-.progress-line span::after{
-    position: absolute;
-    padding:1px 8px;
-    background-color: blue;
-    color: black;
-    font-size: 12px;
-    border-radius: 3px;
-    top: -28px;
-    right:-20px ;
-    animation: showText 0.5s 1.5s linear forwards;
-    opacity: 0;
-}
-.progress-line.html span::after{
-content: 90%;
-}
-.progress-line.css span::after{
-    content: 90%;
-    }
-.progress-line.github span::after{
-    content: 90%;
-    }
-.progress-line.javascript span::after{
-     content: 90%;
-    }
-.progress-line.react span::after{
-    content: 90%;
- }
-
-.progress-line span::before{
-    content:"";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color: #000000;
-    top:-10px;
-    right: 0px;
-    animation: showText 0.5s 1.5s linear forwards;
-    opacity: 0;
-}
-@keyframes showText{
-    100%{
-        opacity: 1;
-    }
-}
-.radial-bars{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.radial-bars .radial-bar{
-width: 50%;
-height: 170px;
-margin-bottom: 10px;
-position: relative;
-}
-.radial-bars .radial-bar svg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-90deg);
-    width: 120px;
-    height: 160px;
-}
-.radial-bars .radial-bar .progressbar{
-    stroke-width: 10;
-    stop-color: black;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
-}
-@keyframes animate-bar{
-    100%{
-        stroke-dashoffset: -1;
-    }
-}
-.path{
-    stroke-width: 10;
-    stroke: aqua;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-}
-.path-1{
-    animation: animate-path1 1s 1s linear forwards;
-}
-.path-2{
-    animation: animate-path2 1s 1s linear forwards;
-}
-.path-3{
-    animation: animate-path3 1s 1s linear forwards;
-}
-.path-4{
-    animation: animate-path4 1s 1s linear forwards;
-}
-@keyframes animate-path1{
-    100%{
-        stroke-dashoffset: 50;;
-    }
-}
-@keyframes animate-path2{
-    100%{
-        stroke-dashoffset: 175;;
-    }
-}
-@keyframes animate-path3{
-    100%{
-        stroke-dashoffset: 125;;
-    }
-}
-@keyframes animate-path4{
-    100%{
-        stroke-dashoffset: 75;;
-    }
-}
-.percentage{
-    color: black;
-}
-.subheading{
-    color: black;
-}
-.radial-bar .percentage{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards; 
-    opacity: 0;
-}
-.radial-bar .subheading{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: -5px;
-    transform: translateX(-50px);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards; 
-    opacity: 0;
-}
-.progress-line {
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 5px;
-    background-color: #000000;
-    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-    transform: scale(0);
-    transform-origin: left;
-}
-
-
-/* Edication and internahip */
-
-.eduhead{
-    text-align: center;
-    text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 3px;
     margin-bottom: 40px;
     color:rgb(204, 0, 255);
+    margin-top: 30px;
 }
-.skillsedication{
+.skillscards{
+     box-shadow:  0.5px 0.5px 1px 1px rgb(189, 188, 188); 
+         border: none;
+        border-radius: 10px; 
+        height: auto;
+        width: 270px;
+        margin-top: 30px;
+        padding: 17px;
+        margin-bottom: 40px;
+}
+.skilldetails{
     display: flex;
     flex-wrap: wrap;
-justify-content: space-around;
-margin: 15px;
+    justify-content: space-around;
+    margin: 15px; 
+}
 
+#iconimage{
+    height: 80px;
+    margin-left: 75px; 
+    cursor: pointer; 
 }
-.educations{
-    box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
-    border: none;
-    border-radius: 10px;
-    width: 600px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    height: auto;
-    padding: 15px;
-}
-.Subeduhead{
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 1.5px;
-    margin-bottom: 20px;
-    color: black;
-    font-size: 20px;
-}
-#grade{
-    color: rgb(88, 87, 87);
-    margin-top: 7px;
-}
-.courseyear{
-    color: rgb(68, 92, 246);
-    padding-bottom: 12px;
-    font-size: 15px;
-}
-.professionalskill{
+#icontitle{
     text-align: center;
-    text-decoration: underline;
-    text-underline-offset:10px;
-    text-decoration-thickness: 3px;
-    margin-bottom:30px;
+    padding-top: 10px;
 }
+
+/* Edication and internahip */
+
 #internshipHeading{
     text-align: center;
-    text-decoration: underline;
     text-underline-offset:10px;
     text-decoration-thickness: 2px;
     margin-bottom:30px;
@@ -353,7 +54,7 @@ margin: 15px;
     margin: 15px;
 }
     .internCards{
-        box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
+        box-shadow:  0.5px 0.5px 1px 1px rgb(189, 188, 188);
         border: none;
         border-radius: 10px;
         height: auto;
@@ -385,4 +86,46 @@ cursor: pointer;
     margin-bottom: 15px;
     font-size: 25px;
 }
+.eduhead{
+    text-align: center;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    margin-bottom: 40px;
+    color:rgb(204, 0, 255);
+}
+.skillsedication{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+margin: 15px;
 
+}
+.educations{
+    box-shadow: 0.5px 0.5px 1px 1px rgb(189, 188, 188);
+    border: none;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 15px;
+}
+.Subeduhead{
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.5px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20px;
+}
+hr{
+    background-color: black;
+}
+#grade{
+    color: rgb(88, 87, 87);
+    margin-top: 7px;
+}
+.courseyear{
+    color: rgb(68, 92, 246);
+    padding-bottom: 12px;
+    font-size: 15px;
+}
