@@ -59,7 +59,6 @@ function AboutMe() {
             <p id="icontitle">Presentation</p>
           </div>
         </div>
-
       </div>
 
       <div>
@@ -137,11 +136,9 @@ function AboutMe() {
             </div>
             <br></br>
           </div>
-
         </div>
       </div>
     </>
   )
 }
 export default AboutMe
-
