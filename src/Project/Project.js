@@ -44,30 +44,36 @@ function Project() {
           <h2 id="projectname">📰 NewsApp</h2>
           <p>NewsApp is a JavaScript-based project designed to deliver a seamless and personalized news experience. This application employs dynamic features to fetch real-time news updates from diverse sources, providing users with a curated feed based on their preferences. With a clean and intuitive user interface, NewsApp ensures an efficient and enjoyable news browsing experience. Users can explore articles, customize their news feed, and stay informed on the latest events effortlessly. </p><br></br>
           <a href='https://github.com/vaibhavgaikwad8476/NewsApp'><span id="sourcecode">Source Code</span>  : https://github.com/vaibhavgaikwad8476/NewsApp</a><br></br><br></br>
-          <a href='https://bejewelled-baklava-9b81f5.netlify.app/'><span id="sourcecode">Demo </span> :https://bejewelled-baklava-9b81f5.netlify.app/</a>
+          <a href='https://bejewelled-baklava-9b81f5.netlify.app/'><span id="sourcecode">Demo </span> : https://bejewelled-baklava-9b81f5.netlify.app/</a>
         </div>
       </div>
 
       <div>
         <h2 id="projectheading2">Mini Projects</h2>
+
         <div class="projectCards">
-
+ 
         <div class="miniProjectCards">
-          <img src={DiceRoller} alt="DiceRoller" id='miniimg'/>
+        <p class="miniprojectname">Dice Roller</p>
+        <a href='https://dice-rollerdesign.netlify.app/'>
+          <img src={DiceRoller} alt="DiceRoller" id='miniimg'/></a>
         </div>
 
         <div class="miniProjectCards">
-        <img src={DigiClock} alt="DigiClock" id='miniimg'/>
+        <p class="miniprojectname">Digital Clock</p>
+        <a href='https://digital-clockdesign.netlify.app/'>
+        <img src={DigiClock} alt="DigiClock" id='miniimg'/></a>
         </div>
-
-        <div class="miniProjectCards">
+        
+        <div class="miniProjectCards"> 
+        <p class="miniprojectname">Calculator</p>
+        <a href='https://calculatorrutuja.netlify.app/'>
         <img src={Calculator} alt="Calculator" id='miniimg'/>
+         </a>
         </div>
 
         </div>
       </div>
-
-      
 
     </div>
     </>
